@@ -1,0 +1,57 @@
+old.reddit.com###redesign-beta-optin-btn
+old.reddit.com##.premium-banner
+old.reddit.com##section.infobar.listingsignupbar
+reddit.com##faceplate-tracker[noun="games_drawer"]
+reddit.com##faceplate-tracker[noun="games_drawer"] + hr
+reddit.com##reddit-recent-pages
+reddit.com##faceplate-tracker[noun="gen_guides_sidebar"]
+reddit.com###flex-left-nav-contents faceplate-expandable-section-helper:has(> details > summary > [noun="multireddits_menu"])
+reddit.com###flex-left-nav-contents faceplate-expandable-section-helper:has(> details > summary > [noun="multireddits_menu"]) + hr
+reddit.com###flex-left-nav-contents details:has(> summary > [noun="resources_menu"])
+reddit.com##[source="nav"][noun="all"]
+reddit.com##[source="nav"][noun="popular"]
+reddit.com##[source="nav"][noun="explore"]
+reddit.com###reddit-trending-searches-partial-container
+reddit.com##div:has( + #reddit-trending-searches-partial-container)
+reddit.com###search-dropdown-results-container search-telemetry-tracker[view-events="search/view/typeahead"]:not([data-faceplate-tracking-context*="subreddit"])
+reddit.com##reddit-search-large[show-ask-button]:remove-attr(show-ask-button)
+||redditstatic.com/shreddit/search-input-desktop-client-css$css,domain=reddit.com
+reddit.com###right-rail-experience-root > faceplate-tracker
+reddit.com##faceplate-tracker[source="earn"]
+reddit.com##faceplate-tracker[noun="premium_menu"]
+reddit.com##faceplate-tracker[source="achievements"]
+reddit.com##ul:has(faceplate-tracker[noun="advertise"])
+reddit.com##.left-nav-create-community-button
+reddit.com###right-sidebar-container>.legal-links
+reddit.com##span[data-part="advertise"]
+||reddit.com^$removeparam=tl
+reddit.com###recent-communities-section
+reddit.com##li[id="news-posts"]
+
+old.reddit.com##.thing[data-domain$="redgifs.com"]
+reddit.com##article:has(shreddit-embed[providername="RedGIFs"])
+old.reddit.com##div.thing[data-nsfw="true"]
+reddit.com##shreddit-blurred-container[reason="nsfw"]
+
+wykop.pl##div.wrapper:has(a[href*=“tradedoubler”])
+wykop.pl##section.sidebar>aside
+wykop.pl##.hint-box
+wykop.pl##.top.pub-slot-wrapper
+wykop.pl##.sidebar-1.pub-slot-wrapper
+wykop.pl##.sidebar-3.pub-slot-wrapper
+wykop.pl##.stream-1.pub-slot-wrapper
+wykop.pl##.stream-2.pub-slot-wrapper
+wykop.pl##.stream-3.pub-slot-wrapper
+wykop.pl##.stream-4.pub-slot-wrapper
+wykop.pl##.stream-bottom.pub-slot-wrapper
+wykop.pl##.doodle
+wykop.pl##section.selected[data-scroll-closest]
+wykop.pl##section.entry:has(span.nsfw), section.entry:has(span.adult.age)
+wykop.pl##article:has-text(/wroc[lł]aw/i)
+wykop.pl##section.entry.stream-tag:not(:has(> article .entry-content a[href^="/tag/"])):not(:has(textarea)), section.entry.stream-profile:not(:has(> article .entry-content a[href^="/tag/"])):not(:has(textarea)), section.entry.stream-entry:not(:has(> article .entry-content a[href^="/tag/"])):not(:has(textarea)), section.entry.stream-microblog:not(:has(> article .entry-content a[href^="/tag/"])):not(:has(textarea))
+wykop.pl##section.entry:has-text(/wordziel|literalnie|🟩|⬜|🟨/i)
+wykop.pl##section.entry:has(> aside.black-content)
+wykop.pl##section.custom-sidebar.tags-sidebar
+
+wykop.pl##section.link-block:has(span.adult.age), section.link-block:has(figure.adult-filter)
+wykop.pl##section.link:has(span.adult.age), section.link:has(figure.adult-filter)
