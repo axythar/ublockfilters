@@ -33,6 +33,7 @@ reddit.com##span[data-part="advertise"]
 ||reddit.com^$removeparam=tl
 reddit.com###recent-communities-section
 reddit.com##li[id="news-posts"]
+reddit.com##recent-posts
 
 reddit.com##.thing[data-domain$="redgifs.com"]
 reddit.com##article:has(shreddit-embed[providername="RedGIFs"])
