@@ -35,10 +35,10 @@ reddit.com###recent-communities-section
 reddit.com##li[id="news-posts"]
 reddit.com##recent-posts
 
-!reddit.com##.thing[data-domain$="redgifs.com"]
-!reddit.com##article:has(shreddit-embed[providername="RedGIFs"])
-!reddit.com##div.thing[data-nsfw="true"]
-!reddit.com##shreddit-blurred-container[reason="nsfw"]
+reddit.com##.thing[data-domain$="redgifs.com"]
+reddit.com##article:has(shreddit-embed[providername="RedGIFs"])
+reddit.com##div.thing[data-nsfw="true"]
+reddit.com##shreddit-blurred-container[reason="nsfw"]
 
 wykop.pl##div.wrapper:has(a[href*="tradedoubler"])
 wykop.pl##section:has(a[href*="track.adform.net"])
