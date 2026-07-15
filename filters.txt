@@ -1,6 +1,6 @@
 ! Title: My Own uBlock Filters
 ! Description: Prywatna lista filtrów do Wykopu, Reddita i innych
-! Last modified: 14 July 2026
+! Last modified: 15 July 2026
 ! Expires: 1 day
 
 reddit.com##.infobar-toaster-container
