@@ -1,6 +1,6 @@
 ! Title: My Own uBlock NSFW Filters
 ! Description: Prywatna lista filtrów do Wykopu i Reddita ukrywająca treści NSFW
-! Last modified: 15 July 2026
+! Last modified: 18 July 2026
 ! Expires: 1 day
 
 reddit.com##.thing[data-domain$="redgifs.com"]
@@ -11,3 +11,4 @@ reddit.com##shreddit-blurred-container[reason="nsfw"]
 
 wykop.pl##section.link-block:has(span.adult.age), section.link-block:has(figure.adult-filter)
 wykop.pl##section.link:has(span.adult.age), section.link:has(figure.adult-filter)
+wykop.pl##section.entry:has(span.nsfw), section.entry:has(span.adult.age)
