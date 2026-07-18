@@ -1,6 +1,6 @@
 ! Title: My Own uBlock Filters
 ! Description: Prywatna lista filtrów do Wykopu, Reddita i innych
-! Last modified: 15 July 2026
+! Last modified: 18 July 2026
 ! Expires: 1 day
 
 reddit.com##.infobar-toaster-container
@@ -52,7 +52,6 @@ wykop.pl##.stream-6.pub-slot-wrapper
 wykop.pl##.stream-bottom.pub-slot-wrapper
 wykop.pl##.doodle
 wykop.pl##section.selected[data-scroll-closest]
-wykop.pl##section.entry:has(span.nsfw), section.entry:has(span.adult.age)
 wykop.pl##article:has-text(/wroc[lł]aw/i)
 wykop.pl##section.entry.stream-tag:not(:has(> article .entry-content a[href^="/tag/"])):not(:has(textarea)), section.entry.stream-profile:not(:has(> article .entry-content a[href^="/tag/"])):not(:has(textarea)), section.entry.stream-microblog:not(:has(> article .entry-content a[href^="/tag/"])):not(:has(textarea))
 wykop.pl##section.entry:has-text(/wordziel|literalnie|🟩|⬜|🟨/i)
