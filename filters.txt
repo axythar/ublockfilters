@@ -56,6 +56,8 @@ wykop.pl##section.entry.stream-tag:not(:has(> article .entry-content a[href^="/t
 wykop.pl##section.entry:has-text(/wroc[lł]aw/i)
 wykop.pl##section.link:has-text(/wroc[lł]aw/i)
 wykop.pl##section.entry:has-text(/wordziel|🟩|⬜|🟨/i)
+wykop.pl##section.entry:has-text(/rosj\w*|rosyjsk\w*|ukrain\w*/i)
+wykop.pl##section.link:has-text(/rosj\w*|rosyjsk\w*|ukrain\w*/i)
 wykop.pl##section.entry:has(> aside.black-content)
 wykop.pl##section.custom-sidebar.tags-sidebar
 wykop.pl##.initiative.pub-slot-wrapper
