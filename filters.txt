@@ -52,7 +52,6 @@ wykop.pl##.stream-6.pub-slot-wrapper
 wykop.pl##.stream-bottom.pub-slot-wrapper
 wykop.pl##.doodle
 wykop.pl##section.selected[data-scroll-closest]
-wykop.pl##section.entry.stream-tag:not(:has(> article .entry-content a[href^="/tag/"])):not(:has(textarea)), section.entry.stream-profile:not(:has(> article .entry-content a[href^="/tag/"])):not(:has(textarea)), section.entry.stream-microblog:not(:has(> article .entry-content a[href^="/tag/"])):not(:has(textarea))
 wykop.pl##section.entry:has-text(/wroc[lł]aw/i)
 wykop.pl##section.link:has-text(/wroc[lł]aw/i)
 wykop.pl##section.entry:has-text(/wordziel|🟩|⬜|🟨/i)
