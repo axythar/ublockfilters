@@ -61,4 +61,3 @@ wykop.pl##.initiative.pub-slot-wrapper
 wykop.pl##.screening.pub-slot-wrapper
 wykop.pl##.top-screening.pub-slot-wrapper
 wykop.pl##article:has(#switch-newsletter-cta)
-wykop.pl##section:has(a[href*="codeaven.com"])
