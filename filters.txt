@@ -35,6 +35,11 @@ reddit.com###recent-communities-section
 reddit.com##li[id="news-posts"]
 reddit.com##recent-posts
 
+reddit.com##.thing[data-domain$="redgifs.com"]
+reddit.com##article:has(shreddit-embed[providername="RedGIFs"])
+reddit.com##div.thing[data-nsfw="true"]
+reddit.com##shreddit-blurred-container[reason="nsfw"]
+
 wykop.pl##div.wrapper:has(a[href*="tradedoubler"])
 wykop.pl##section:has(a[href*="track.adform.net"])
 wykop.pl##section.sidebar>aside
@@ -61,3 +66,8 @@ wykop.pl##.initiative.pub-slot-wrapper
 wykop.pl##.screening.pub-slot-wrapper
 wykop.pl##.top-screening.pub-slot-wrapper
 wykop.pl##article:has(#switch-newsletter-cta)
+wykop.pl##div.wrapper:has(a[href*="codeaven.com"])
+
+wykop.pl##section.link-block:has(span.adult.age), section.link-block:has(figure.adult-filter)
+wykop.pl##section.link:has(span.adult.age), section.link:has(figure.adult-filter)
+wykop.pl##section.entry:has(span.nsfw), section.entry:has(span.adult.age)
