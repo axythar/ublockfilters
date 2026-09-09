@@ -1,0 +1,64 @@
+! Title: My Own uBlock Filters
+! Description: My own private filters for Wykop and Reddit
+! Last modified: 9 September 2026
+! Expires: 1 day
+
+reddit.com##.infobar-toaster-container
+reddit.com###redesign-beta-optin-btn
+reddit.com##.premium-banner
+reddit.com##section.infobar.listingsignupbar
+reddit.com##faceplate-tracker[noun="games_drawer"]
+reddit.com##faceplate-tracker[noun="games_drawer"] + hr
+reddit.com##reddit-recent-pages
+reddit.com##faceplate-tracker[noun="gen_guides_sidebar"]
+reddit.com###flex-left-nav-contents faceplate-expandable-section-helper:has(> details > summary > [noun="multireddits_menu"])
+reddit.com###flex-left-nav-contents faceplate-expandable-section-helper:has(> details > summary > [noun="multireddits_menu"]) + hr
+reddit.com###flex-left-nav-contents details:has(> summary > [noun="resources_menu"])
+reddit.com##[source="nav"][noun="all"]
+reddit.com##[source="nav"][noun="popular"]
+reddit.com##[source="nav"][noun="explore"]
+reddit.com###reddit-trending-searches-partial-container
+reddit.com##div:has( + #reddit-trending-searches-partial-container)
+reddit.com###search-dropdown-results-container search-telemetry-tracker[view-events="search/view/typeahead"]:not([data-faceplate-tracking-context*="subreddit"])
+reddit.com##reddit-search-large[show-ask-button]:remove-attr(show-ask-button)
+||redditstatic.com/shreddit/search-input-desktop-client-css$css,domain=reddit.com
+reddit.com###right-rail-experience-root > faceplate-tracker
+reddit.com##faceplate-tracker[source="earn"]
+reddit.com##faceplate-tracker[noun="premium_menu"]
+reddit.com##faceplate-tracker[source="achievements"]
+reddit.com##ul:has(faceplate-tracker[noun="advertise"])
+reddit.com##.left-nav-create-community-button
+reddit.com###right-sidebar-container>.legal-links
+reddit.com##span[data-part="advertise"]
+||reddit.com^$removeparam=tl
+reddit.com###recent-communities-section
+reddit.com##li[id="news-posts"]
+reddit.com##recent-posts
+
+wykop.pl##div.wrapper:has(a[href*="tradedoubler"])
+wykop.pl##section:has(a[href*="track.adform.net"])
+wykop.pl##section.sidebar>aside
+wykop.pl##.hint-box
+wykop.pl##.top.pub-slot-wrapper
+wykop.pl##.sidebar-1.pub-slot-wrapper
+wykop.pl##.sidebar-2.pub-slot-wrapper
+wykop.pl##.sidebar-3.pub-slot-wrapper
+wykop.pl##.stream-1.pub-slot-wrapper
+wykop.pl##.stream-2.pub-slot-wrapper
+wykop.pl##.stream-3.pub-slot-wrapper
+wykop.pl##.stream-4.pub-slot-wrapper
+wykop.pl##.stream-5.pub-slot-wrapper
+wykop.pl##.stream-6.pub-slot-wrapper
+wykop.pl##.stream-bottom.pub-slot-wrapper
+wykop.pl##.doodle
+wykop.pl##section.selected[data-scroll-closest]
+wykop.pl##section.entry:has-text(/wroc[lł]aw/i)
+wykop.pl##section.link:has-text(/wroc[lł]aw/i)
+wykop.pl##section.entry:has-text(/wordziel|🟩|⬜|🟨/i)
+wykop.pl##section.entry:has(> aside.black-content)
+wykop.pl##section.custom-sidebar.tags-sidebar
+wykop.pl##.initiative.pub-slot-wrapper
+wykop.pl##.screening.pub-slot-wrapper
+wykop.pl##.top-screening.pub-slot-wrapper
+wykop.pl##article:has(#switch-newsletter-cta)
+wykop.pl##div.wrapper:has(a[href*="codeaven.com"])
