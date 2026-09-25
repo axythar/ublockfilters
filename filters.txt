@@ -1,6 +1,6 @@
 ! Title: My Own uBlock Filters
 ! Description: My own private filters for Wykop and Reddit
-! Last modified: 15 September 2026
+! Last modified: 25 September 2026
 ! Expires: 1 day
 
 reddit.com##.infobar-toaster-container
@@ -55,7 +55,6 @@ wykop.pl##section.selected[data-scroll-closest]
 wykop.pl##section.entry:has-text(/wroc[lł]aw/i)
 wykop.pl##section.link:has-text(/wroc[lł]aw/i)
 wykop.pl##section.entry:has-text(/wordziel|🟩|⬜|🟨/i)
-wykop.pl##section.entry:has(> aside.black-content)
 wykop.pl##section.custom-sidebar.tags-sidebar
 wykop.pl##.initiative.pub-slot-wrapper
 wykop.pl##.screening.pub-slot-wrapper
@@ -63,3 +62,5 @@ wykop.pl##.top-screening.pub-slot-wrapper
 wykop.pl##article:has(#switch-newsletter-cta)
 wykop.pl##div.wrapper:has(a[href*="codeaven.com"])
 wykop.pl##div.wrapper:has(a[href*="dhwnh.com"])
+wykop.pl##section.entry:has(> aside.black-content)
+wykop.pl##section.item:has(li.blacklist)
