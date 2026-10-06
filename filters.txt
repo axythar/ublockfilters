@@ -1,6 +1,6 @@
 ! Title: My Own uBlock Filters
 ! Description: My own private filters for Wykop and Reddit
-! Last modified: 29 September 2026
+! Last modified: 6 October 2026
 ! Expires: 1 day
 
 reddit.com##.infobar-toaster-container
@@ -11,8 +11,6 @@ reddit.com##faceplate-tracker[noun="games_drawer"]
 reddit.com##faceplate-tracker[noun="games_drawer"] + hr
 reddit.com##reddit-recent-pages
 reddit.com##faceplate-tracker[noun="gen_guides_sidebar"]
-reddit.com###flex-left-nav-contents faceplate-expandable-section-helper:has(> details > summary > [noun="multireddits_menu"])
-reddit.com###flex-left-nav-contents faceplate-expandable-section-helper:has(> details > summary > [noun="multireddits_menu"]) + hr
 reddit.com###flex-left-nav-contents details:has(> summary > [noun="resources_menu"])
 reddit.com##[source="nav"][noun="all"]
 reddit.com##[source="nav"][noun="popular"]
