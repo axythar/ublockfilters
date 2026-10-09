@@ -1,6 +1,6 @@
 ! Title: My Own uBlock Filters
 ! Description: My own private filters for Wykop and Reddit
-! Last modified: 6 October 2026
+! Last modified: 9 October 2026
 ! Expires: 1 day
 
 reddit.com##.infobar-toaster-container
@@ -33,8 +33,14 @@ reddit.com###recent-communities-section
 reddit.com##li[id="news-posts"]
 reddit.com##recent-posts
 
+reddit.com##.thing[data-domain$="redgifs.com"]
+reddit.com##article:has(shreddit-embed[providername="RedGIFs"])
+reddit.com##div.thing[data-nsfw="true"]
+reddit.com##shreddit-blurred-container[reason="nsfw"]
+reddit.com##shreddit-post[nsfw]
+
 wykop.pl##div.wrapper:has(a[href*="tradedoubler"])
-wykop.pl##section:has(a[href*="track.adform.net"])
+wykop.pl##div.wrapper:has(a[href*="track.adform.net"])
 wykop.pl##section.sidebar>aside
 wykop.pl##.hint-box
 wykop.pl##.top.pub-slot-wrapper
@@ -52,10 +58,8 @@ wykop.pl##.doodle
 wykop.pl##section.selected[data-scroll-closest]
 wykop.pl##section.entry:has-text(/wroc[lł]aw/i)
 wykop.pl##section.link:has-text(/wroc[lł]aw/i)
-wykop.pl##section.item:has-text(/wroc[lł]aw/i)
-wykop.pl##section.thread:has(> section.item:has-text(/wroc[lł]aw/i)
+wykop.pl##section.thread:has(> section.item:has-text(/wroc[lł]aw/i))
 wykop.pl##section.entry:has-text(/wordziel|🟩|⬜|🟨/i)
-wykop.pl##section.item:has-text(/wordziel|🟩|⬜|🟨/i)
 wykop.pl##section.thread:has(> section.item:has-text(/wordziel|🟩|⬜|🟨/i))
 wykop.pl##section.custom-sidebar.tags-sidebar
 wykop.pl##.initiative.pub-slot-wrapper
@@ -67,3 +71,8 @@ wykop.pl##div.wrapper:has(a[href*="dhwnh.com"])
 wykop.pl##section.entry:has(> aside.black-content)
 wykop.pl##section.item:has(li.blacklist)
 wykop.pl##section.item:has(section.alert)
+
+wykop.pl##section.item:has(li.age-18)
+wykop.pl##section.thread:has(> section.item:has(li.age-18, li.nsfw))
+wykop.pl##section.link-block:has(span.adult.age, span.nsfw)
+wykop.pl##section.thread-link:has(span.adult.age, span.nsfw)
