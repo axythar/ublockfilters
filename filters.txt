@@ -43,24 +43,14 @@ wykop.pl##div.wrapper:has(a[href*="tradedoubler"])
 wykop.pl##div.wrapper:has(a[href*="track.adform.net"])
 wykop.pl##section.sidebar>aside
 wykop.pl##.hint-box
-wykop.pl##.top.pub-slot-wrapper
-wykop.pl##.sidebar-1.pub-slot-wrapper
-wykop.pl##.sidebar-2.pub-slot-wrapper
-wykop.pl##.sidebar-3.pub-slot-wrapper
-wykop.pl##.stream-1.pub-slot-wrapper
-wykop.pl##.stream-2.pub-slot-wrapper
-wykop.pl##.stream-3.pub-slot-wrapper
-wykop.pl##.stream-4.pub-slot-wrapper
-wykop.pl##.stream-5.pub-slot-wrapper
-wykop.pl##.stream-6.pub-slot-wrapper
-wykop.pl##.stream-bottom.pub-slot-wrapper
+wykop.pl##[class*="pub-slot-wrapper"]
 wykop.pl##.doodle
 wykop.pl##section.selected[data-scroll-closest]
-wykop.pl##section.entry:has-text(/wroc[lł]aw/i)
-wykop.pl##section.link:has-text(/wroc[lł]aw/i)
-wykop.pl##section.thread:has(> section.item:has-text(/wroc[lł]aw/i))
-wykop.pl##section.entry:has-text(/wordziel|🟩|⬜|🟨/i)
-wykop.pl##section.thread:has(> section.item:has-text(/wordziel|🟩|⬜|🟨/i))
+wykop.pl##section.link-block:has-text(/wroc[lł]aw/i)
+wykop.pl##section.item:has-text(/wroc[lł]aw/i)
+wykop.pl##section.item:has-text(/wordziel|🟩|⬜|🟨/i)
+wykop.pl##section.thread[data-level="1"]:has(> section.item:has-text(/wroc[lł]aw/i))
+wykop.pl##section.thread[data-level="1"]:has(> section.item:has-text(/wordziel|🟩|⬜|🟨/i))
 wykop.pl##section.custom-sidebar.tags-sidebar
 wykop.pl##.initiative.pub-slot-wrapper
 wykop.pl##.screening.pub-slot-wrapper
