@@ -38,6 +38,7 @@ reddit.com##article:has(shreddit-embed[providername="RedGIFs"])
 reddit.com##div.thing[data-nsfw="true"]
 reddit.com##shreddit-blurred-container[reason="nsfw"]
 reddit.com##shreddit-post[nsfw]
+reddit.com##community-highlight-card[nsfw]
 
 wykop.pl##div.wrapper:has(a[href*="tradedoubler"])
 wykop.pl##div.wrapper:has(a[href*="track.adform.net"])
