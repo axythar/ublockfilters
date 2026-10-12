@@ -1,0 +1,16 @@
+! Title: Personal uBlock Origin Filters - Adult Content
+! Description: My personal filter list for hiding NSFW content on Reddit and Wykop.
+! Last modified: 12 October 2026
+! Expires: 1 day
+
+reddit.com##.thing[data-domain$="redgifs.com"]
+reddit.com##article:has(shreddit-embed[providername="RedGIFs"])
+reddit.com##div.thing[data-nsfw="true"]
+reddit.com##shreddit-blurred-container[reason="nsfw"]
+reddit.com##shreddit-post[nsfw]
+reddit.com##community-highlight-card[nsfw]
+
+wykop.pl##section.item:has(li.age-18)
+wykop.pl##section.thread:has(> section.item:has(li.age-18, li.nsfw))
+wykop.pl##section.link-block:has(span.adult.age, span.nsfw)
+wykop.pl##section.thread-link:has(span.adult.age, span.nsfw)
