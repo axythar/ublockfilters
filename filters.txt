@@ -1,5 +1,5 @@
-! Title: My Own uBlock Filters
-! Description: My own private filters for Wykop and Reddit
+! Title: Personal uBlock Origin Filters
+! Description: My personal filter list for Wykop and Reddit
 ! Last modified: 11 October 2026
 ! Expires: 1 day
 
@@ -34,13 +34,6 @@ reddit.com##li[id="news-posts"]
 reddit.com##recent-posts
 reddit.com##button#header-action-item-chat-button
 
-reddit.com##.thing[data-domain$="redgifs.com"]
-reddit.com##article:has(shreddit-embed[providername="RedGIFs"])
-reddit.com##div.thing[data-nsfw="true"]
-reddit.com##shreddit-blurred-container[reason="nsfw"]
-reddit.com##shreddit-post[nsfw]
-reddit.com##community-highlight-card[nsfw]
-
 wykop.pl##div.wrapper:has(a[href*="tradedoubler"])
 wykop.pl##div.wrapper:has(a[href*="track.adform.net"])
 wykop.pl##section.sidebar>aside
@@ -64,8 +57,3 @@ wykop.pl##section.entry:has(> aside.black-content)
 wykop.pl##section.item:has(li.blacklist)
 wykop.pl##section.item:has(section.alert)
 wykop.pl##.toast-container:has(.toast-title:has-text(/limit/i))
-
-wykop.pl##section.item:has(li.age-18)
-wykop.pl##section.thread:has(> section.item:has(li.age-18, li.nsfw))
-wykop.pl##section.link-block:has(span.adult.age, span.nsfw)
-wykop.pl##section.thread-link:has(span.adult.age, span.nsfw)
