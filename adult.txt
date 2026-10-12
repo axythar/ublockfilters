@@ -12,5 +12,8 @@ reddit.com##community-highlight-card[nsfw]
 
 wykop.pl##section.item:has(li.age-18)
 wykop.pl##section.thread:has(> section.item:has(li.age-18, li.nsfw))
+wykop.pl##section.thread:has(li.nsfw, li.age-18)
 wykop.pl##section.link-block:has(span.adult.age, span.nsfw)
 wykop.pl##section.thread-link:has(span.adult.age, span.nsfw)
+wykop.pl##section.entry:has(span.nsfw, span.age)
+wykop.pl##section.entry-comment:has(li.nsfw, li.age-18)
