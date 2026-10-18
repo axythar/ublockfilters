@@ -1,0 +1,180 @@
+! Title: PH Cleanup List
+! Description: Comprehensive filter list removing unwanted sections, categories, banners, and promotional content on Pornhub.
+! Last modified: 18 October 2026
+! Expires: 1 day
+
+! DESKTOP: POPUPS & BANNERS
+pornhub.com###cookieBanner
+pornhub.com###countryRedirectMessage
+pornhub.com###welcome
+
+! DESKTOP: HEADER & NAVIGATION
+! Network bar, main nav, orientation switcher, "gay" link
+pornhub.com##.networkBarWrapper
+pornhub.com###desktopNavigation
+pornhub.com##.orientationMenuWrap
+pornhub.com##a.orientation[href*="gay"]
+! Specific menu items, inbox/notification icons, upload button
+pornhub.com##li#menuItem5
+pornhub.com##li#menuItem7
+pornhub.com##li#menuItem8
+pornhub.com##li.notificationIcon
+pornhub.com##.uploadBtnContent
+! Account menu links (model, translator, FAQ, support)
+pornhub.com##a.menuLink[href="/user/verification"]
+pornhub.com##a.menuLink[href="/translate/sign_up"]
+pornhub.com##a.menuLink[href*="help.pornhub.com"]
+pornhub.com##a.menuLink[href="/support"]
+
+! DESKTOP: HOMEPAGE SECTIONS
+! Trending pills, trending pornstars, tag blocks, related searches
+pornhub.com##.trendingPillsTitle
+pornhub.com##.trendingPillsContainer
+pornhub.com##.pornstarSearchesListWrapper
+pornhub.com##.tagsForWomen
+pornhub.com##.sectionWrapper.relatedSearchTermsBottom
+pornhub.com##.moreOfMeWrapper
+
+! DESKTOP: VIDEO LISTS
+! Hide videos from content partners and AI-generated videos
+pornhub.com##li.pcVideoListItem:has(.producer-icon)
+pornhub.com##li.pcVideoListItem:has(.ph-icon-ai)
+
+! DESKTOP: FOOTER
+pornhub.com##.footerContentWrapper
+pornhub.com##.hizzof
+
+! DESKTOP: VIDEO PAGE
+! Comments, playlists, clip/report/more buttons
+pornhub.com###under-player-comments
+pornhub.com###under-player-playlists
+pornhub.com###clipsTrigger
+pornhub.com##.clipsEditor__clipsButtonBlock
+pornhub.com###video_flag
+pornhub.com##.tab-menu-wrapper-cell:has(#video_flag)
+pornhub.com##.tab-menu-wrapper-cell:has(.moreCTAs)
+pornhub.com##.moreCTAs
+pornhub.com###ctaBox
+
+! FILTER PANEL
+! "Professional" production filter
+pornhub.com##li[data-origin-id="production-professional"]
+
+! HIDDEN CATEGORIES: CATEGORIES PAGE (by category ID)
+pornhub.com##li.catPic[data-category="76"]
+pornhub.com##li.catPic[data-category="512"]
+pornhub.com##li.catPic[data-category="92"]
+pornhub.com##li.catPic[data-category="83"]
+pornhub.com##li.catPic[data-category="2421"]
+pornhub.com##li.catPic[data-category="86"]
+pornhub.com##li.catPic[data-category="36"]
+pornhub.com##li.catPic[data-category="105"]
+pornhub.com##li.catPic[data-category="141"]
+pornhub.com##li.catPic[data-category="732"]
+pornhub.com##li.catPic[data-category="231"]
+pornhub.com##li.catPic[data-category="32"]
+pornhub.com##li.catPic[data-category="881"]
+pornhub.com##li.catPic[data-category="108"]
+pornhub.com##li.catPic[data-category="121"]
+pornhub.com##li.catPic[data-category="201"]
+pornhub.com##li.catPic[data-category="53"]
+pornhub.com##li.catPic[data-category="211"]
+pornhub.com##li.catPic[data-category="891"]
+pornhub.com##li.catPic[data-category="921"]
+pornhub.com##li.catPic[data-category="221"]
+pornhub.com##li.catPic[data-category="91"]
+pornhub.com##li.catPic[data-category="43"]
+pornhub.com##li.catPic[data-category="104"]
+pornhub.com##li.catPic[data-category="61"]
+pornhub.com##li.catPic[data-category="101"]
+pornhub.com##li.catPic[data-category="98"]
+pornhub.com##li.catPic[data-category="102"]
+pornhub.com##li.catPic[data-category="242"]
+pornhub.com##li.catPic[data-category="115"]
+pornhub.com##li.catPic[data-category="38"]
+pornhub.com##li.catPic[data-category="81"]
+pornhub.com##li.catPic[data-category="181"]
+
+! HIDDEN CATEGORIES: FILTER DRAWER (incl. Gay and Transgender subcategories)
+pornhub.com##li.categoryItem[data-value="76"]
+pornhub.com##li.categoryItem[data-value="512"]
+pornhub.com##li.categoryItem[data-value="92"]
+pornhub.com##li.categoryItem[data-value="83"]
+pornhub.com##li.categoryItem[data-value="2421"]
+pornhub.com##li.categoryItem[data-value="86"]
+pornhub.com##li.categoryItem[data-value="36"]
+pornhub.com##li.categoryItem[data-value="105"]
+pornhub.com##li.categoryItem[data-value="141"]
+pornhub.com##li.categoryItem[data-value="732"]
+pornhub.com##li.categoryItem[data-value="231"]
+pornhub.com##li.categoryItem[data-value="32"]
+pornhub.com##li.categoryItem[data-value="881"]
+pornhub.com##li.categoryItem[data-value="108"]
+pornhub.com##li.categoryItem[data-value="121"]
+pornhub.com##li.categoryItem[data-value="201"]
+pornhub.com##li.categoryItem[data-value="53"]
+pornhub.com##li.categoryItem[data-value="211"]
+pornhub.com##li.categoryItem[data-value="891"]
+pornhub.com##li.categoryItem[data-value="921"]
+pornhub.com##li.categoryItem[data-value="221"]
+pornhub.com##li.categoryItem[data-value="91"]
+pornhub.com##li.categoryItem[data-value="43"]
+pornhub.com##li.categoryItem[data-value="104"]
+pornhub.com##li.categoryItem[data-value="61"]
+pornhub.com##li.categoryItem[data-value="101"]
+pornhub.com##li.categoryItem[data-value="98"]
+pornhub.com##li.categoryItem[data-value="102"]
+pornhub.com##li.categoryItem[data-value="242"]
+pornhub.com##li.categoryItem[data-value="115"]
+pornhub.com##li.categoryItem[data-value="38"]
+pornhub.com##li.categoryItem[data-value="81"]
+pornhub.com##li.categoryItem[data-value="181"]
+pornhub.com##li.categoryItem[data-value="63"]
+pornhub.com##li.categoryItem[data-value="602"]
+pornhub.com##li.categoryItem[data-value="572"]
+pornhub.com##li.categoryItem[data-value="582"]
+
+! MOBILE: VIDEO LISTS
+! Hide videos from channels / content partners, and the Shorties section
+pornhub.com##li[data-video-id]:has(.badgeIcon.channel-icon)
+pornhub.com##li[data-video-id]:has(.producer-icon)
+pornhub.com##li.shortiesBox:has(.channel-icon)
+pornhub.com###shortiesListSection
+
+! MOBILE: HOMEPAGE & BANNERS
+pornhub.com##.relatedSearchTermsWrapper
+pornhub.com###welcomeVideoMsg
+pornhub.com##.js-categoryTopAd
+pornhub.com##a.eudsaLink
+
+! MOBILE: SIDE MENU
+pornhub.com###leftMenu a.menuLink.clips
+pornhub.com###leftMenu a.menuLink.shorties
+pornhub.com###leftMenu .pornstarNavigation
+pornhub.com###leftMenu #pornstarSubmenu
+pornhub.com###leftMenu a.menuLink[href="/channels"]
+pornhub.com###leftMenu a.menuLink[href="/gifs"]
+pornhub.com###leftMenu a.menuLink[href="/albums"]
+pornhub.com###leftMenu a.menuLink[href="/blog"]
+pornhub.com###leftMenu a.menuLink[href="https://www.pornhub.com/insights/"]
+pornhub.com###leftMenu a.menuLink[href="https://www.pornhub.com/sex/"]
+pornhub.com###leftMenu .menuLink.halfWidth:has(a[href*="pornhubapparel.com"])
+
+! MOBILE: VIDEO PAGE
+! Button bar under the player, top comment, comments tab
+pornhub.com##.underThumbButtons
+pornhub.com##.mostPopularComment
+pornhub.com##li.commentsTab
+
+! MOBILE: PROFILE PAGES
+! Message and Links buttons, Clips/Photos/GIFs/About tabs, Achievements
+pornhub.com##.ctaListItem:has(a[href^="/chat/index"])
+pornhub.com##.ctaListItem:has(.js-links-trigger-btn)
+pornhub.com###profileClips
+pornhub.com##li.fourMenuBlocks:has(a[href$="/photos"])
+pornhub.com##li.fourMenuBlocks:has(a[href$="/gifs"])
+pornhub.com##li.fourMenuBlocks:has(a[href$="/about"])
+pornhub.com##section.sectionWrapper:has(a[href$="/achievements"])
+
+! MOBILE: FOOTER
+pornhub.com##footer.js-mainFooter
