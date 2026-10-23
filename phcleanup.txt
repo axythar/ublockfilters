@@ -59,6 +59,10 @@ pornhub.com##.translateWrapper
 pornhub.com##.promotionalContent
 pornhub.com##.adsRemoveButtonWrapper
 
+! DESKTOP: PROFILE PAGES
+! Social links block (Official Site, Instagram, etc.)
+pornhub.com##.socialsColumn
+
 ! FILTER PANEL
 ! "Professional" production filter
 pornhub.com##li[data-origin-id="production-professional"]
@@ -169,7 +173,6 @@ pornhub.com##li.commentsTab
 pornhub.com##.ctaListItem:has(a[href^="/chat/index"])
 pornhub.com##.ctaListItem:has(.js-links-trigger-btn)
 pornhub.com###profileClips
-pornhub.com##.socialsColumn
 pornhub.com##li.fourMenuBlocks:has(a[href$="/photos"])
 pornhub.com##li.fourMenuBlocks:has(a[href$="/gifs"])
 pornhub.com##li.fourMenuBlocks:has(a[href$="/about"])
