@@ -55,6 +55,7 @@ pornhub.com##.tab-menu-wrapper-cell:has(#video_flag)
 pornhub.com##.tab-menu-wrapper-cell:has(.moreCTAs)
 pornhub.com##.moreCTAs
 pornhub.com###ctaBox
+pornhub.com##.translateWrapper
 
 ! FILTER PANEL
 ! "Professional" production filter
