@@ -62,6 +62,7 @@ pornhub.com##.infoBoxes
 pornhub.com##.viewersChoiceContestBox
 pornhub.com##.viewersChoiceContest
 pornhub.com##.modelViewersChoiceSection
+pornhub.com##.communityMessage
 
 ! DESKTOP: FILTER PANEL
 ! "Professional" production filter
