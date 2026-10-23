@@ -63,6 +63,8 @@ pornhub.com##.adsRemoveButtonWrapper
 ! Social links block (Official Site, Instagram, etc.), stats bar (ranks, views, subscribers)
 pornhub.com##.socialsColumn
 pornhub.com##.infoBoxes
+pornhub.com##.viewersChoiceContestBox
+pornhub.com##.modelViewersChoiceSection
 
 ! FILTER PANEL
 ! "Professional" production filter
