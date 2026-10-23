@@ -60,6 +60,7 @@ pornhub.com##.moreOfMeWrapper
 pornhub.com##.socialsColumn
 pornhub.com##.infoBoxes
 pornhub.com##.viewersChoiceContestBox
+pornhub.com##.viewersChoiceContest
 pornhub.com##.modelViewersChoiceSection
 
 ! DESKTOP: FILTER PANEL
