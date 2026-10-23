@@ -33,19 +33,14 @@ pornhub.com##.trendingPillsContainer
 pornhub.com##.pornstarSearchesListWrapper
 pornhub.com##.tagsForWomen
 pornhub.com##.sectionWrapper.relatedSearchTermsBottom
-pornhub.com##.moreOfMeWrapper
 
 ! DESKTOP: VIDEO LISTS
 ! Hide videos from content partners and AI-generated videos
 pornhub.com##li.pcVideoListItem:has(.producer-icon)
 pornhub.com##li.pcVideoListItem:has(.ph-icon-ai)
 
-! DESKTOP: FOOTER
-pornhub.com##.footerContentWrapper
-pornhub.com##.hizzof
-
 ! DESKTOP: VIDEO PAGE
-! Comments, playlists, clip/report/more buttons
+! Comments, playlists, clip/report/more/translate buttons, sponsored badge, "Remove Ads" button
 pornhub.com###under-player-comments
 pornhub.com###under-player-playlists
 pornhub.com###clipsTrigger
@@ -60,17 +55,18 @@ pornhub.com##.promotionalContent
 pornhub.com##.adsRemoveButtonWrapper
 
 ! DESKTOP: PROFILE PAGES
-! Social links block (Official Site, Instagram, etc.), stats bar (ranks, views, subscribers)
+! "More of Me" button (also on video pages), social links block, stats bar (ranks, views, subscribers), Viewers' Choice contest
+pornhub.com##.moreOfMeWrapper
 pornhub.com##.socialsColumn
 pornhub.com##.infoBoxes
 pornhub.com##.viewersChoiceContestBox
 pornhub.com##.modelViewersChoiceSection
 
-! FILTER PANEL
+! DESKTOP: FILTER PANEL
 ! "Professional" production filter
 pornhub.com##li[data-origin-id="production-professional"]
 
-! HIDDEN CATEGORIES: CATEGORIES PAGE (by category ID)
+! DESKTOP: HIDDEN CATEGORIES, CATEGORIES PAGE (by category ID)
 pornhub.com##li.catPic[data-category="76"]
 pornhub.com##li.catPic[data-category="512"]
 pornhub.com##li.catPic[data-category="92"]
@@ -104,7 +100,7 @@ pornhub.com##li.catPic[data-category="38"]
 pornhub.com##li.catPic[data-category="81"]
 pornhub.com##li.catPic[data-category="181"]
 
-! HIDDEN CATEGORIES: FILTER DRAWER
+! DESKTOP: HIDDEN CATEGORIES, FILTER DRAWER (by category ID)
 pornhub.com##li.categoryItem[data-value="76"]
 pornhub.com##li.categoryItem[data-value="512"]
 pornhub.com##li.categoryItem[data-value="92"]
@@ -138,6 +134,10 @@ pornhub.com##li.categoryItem[data-value="38"]
 pornhub.com##li.categoryItem[data-value="81"]
 pornhub.com##li.categoryItem[data-value="181"]
 pornhub.com##li.categoryItem[data-value="63"]
+
+! DESKTOP: FOOTER
+pornhub.com##.footerContentWrapper
+pornhub.com##.hizzof
 
 ! MOBILE: VIDEO LISTS
 ! Hide videos from channels / content partners, and the Shorties section
