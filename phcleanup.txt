@@ -57,6 +57,7 @@ pornhub.com##.moreCTAs
 pornhub.com###ctaBox
 pornhub.com##.translateWrapper
 pornhub.com##.promotionalContent
+pornhub.com##.adsRemoveButtonWrapper
 
 ! FILTER PANEL
 ! "Professional" production filter
@@ -66,7 +67,6 @@ pornhub.com##li[data-origin-id="production-professional"]
 pornhub.com##li.catPic[data-category="76"]
 pornhub.com##li.catPic[data-category="512"]
 pornhub.com##li.catPic[data-category="92"]
-pornhub.com##li.catPic[data-category="83"]
 pornhub.com##li.catPic[data-category="2421"]
 pornhub.com##li.catPic[data-category="86"]
 pornhub.com##li.catPic[data-category="36"]
@@ -97,11 +97,10 @@ pornhub.com##li.catPic[data-category="38"]
 pornhub.com##li.catPic[data-category="81"]
 pornhub.com##li.catPic[data-category="181"]
 
-! HIDDEN CATEGORIES: FILTER DRAWER (incl. Gay and Transgender subcategories)
+! HIDDEN CATEGORIES: FILTER DRAWER
 pornhub.com##li.categoryItem[data-value="76"]
 pornhub.com##li.categoryItem[data-value="512"]
 pornhub.com##li.categoryItem[data-value="92"]
-pornhub.com##li.categoryItem[data-value="83"]
 pornhub.com##li.categoryItem[data-value="2421"]
 pornhub.com##li.categoryItem[data-value="86"]
 pornhub.com##li.categoryItem[data-value="36"]
@@ -132,9 +131,6 @@ pornhub.com##li.categoryItem[data-value="38"]
 pornhub.com##li.categoryItem[data-value="81"]
 pornhub.com##li.categoryItem[data-value="181"]
 pornhub.com##li.categoryItem[data-value="63"]
-pornhub.com##li.categoryItem[data-value="602"]
-pornhub.com##li.categoryItem[data-value="572"]
-pornhub.com##li.categoryItem[data-value="582"]
 
 ! MOBILE: VIDEO LISTS
 ! Hide videos from channels / content partners, and the Shorties section
@@ -173,6 +169,7 @@ pornhub.com##li.commentsTab
 pornhub.com##.ctaListItem:has(a[href^="/chat/index"])
 pornhub.com##.ctaListItem:has(.js-links-trigger-btn)
 pornhub.com###profileClips
+pornhub.com##.socialsColumn
 pornhub.com##li.fourMenuBlocks:has(a[href$="/photos"])
 pornhub.com##li.fourMenuBlocks:has(a[href$="/gifs"])
 pornhub.com##li.fourMenuBlocks:has(a[href$="/about"])
