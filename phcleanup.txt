@@ -60,8 +60,9 @@ pornhub.com##.promotionalContent
 pornhub.com##.adsRemoveButtonWrapper
 
 ! DESKTOP: PROFILE PAGES
-! Social links block (Official Site, Instagram, etc.)
+! Social links block (Official Site, Instagram, etc.), stats bar (ranks, views, subscribers)
 pornhub.com##.socialsColumn
+pornhub.com##.infoBoxes
 
 ! FILTER PANEL
 ! "Professional" production filter
