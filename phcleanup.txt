@@ -1,6 +1,6 @@
 ! Title: PH Cleanup List
 ! Description: Comprehensive filter list removing unwanted sections, categories, banners, and promotional content on Pornhub.
-! Last modified: 24 October 2026
+! Last modified: 27 October 2026
 ! Expires: 1 day
 
 ! DESKTOP: POPUPS & BANNERS
@@ -33,6 +33,7 @@ pornhub.com##.trendingPillsContainer
 pornhub.com##.pornstarSearchesListWrapper
 pornhub.com##.tagsForWomen
 pornhub.com##.sectionWrapper.relatedSearchTermsBottom
+pornhub.com##section:has(> .headerBg a[href="/user/discover/popular_content_partners"])
 
 ! DESKTOP: VIDEO LISTS
 ! Hide videos from content partners and AI-generated videos
