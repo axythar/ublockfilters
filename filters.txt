@@ -1,6 +1,6 @@
 ! Title: Personal uBlock Origin Filters
 ! Description: My personal uBlock Origin filter list
-! Last modified: 11 October 2026
+! Last modified: 27 October 2026
 ! Expires: 1 day
 
 reddit.com##.infobar-toaster-container
