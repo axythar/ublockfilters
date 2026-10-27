@@ -1,5 +1,5 @@
 ! Title: Personal uBlock Origin Filters
-! Description: My personal filter list for Wykop and Reddit
+! Description: My personal uBlock Origin filter list
 ! Last modified: 11 October 2026
 ! Expires: 1 day
 
@@ -33,27 +33,3 @@ reddit.com###recent-communities-section
 reddit.com##li[id="news-posts"]
 reddit.com##recent-posts
 reddit.com##button#header-action-item-chat-button
-
-wykop.pl##div.wrapper:has(a[href*="tradedoubler"])
-wykop.pl##div.wrapper:has(a[href*="track.adform.net"])
-wykop.pl##section.sidebar>aside
-wykop.pl##.hint-box
-wykop.pl##[class*="pub-slot-wrapper"]
-wykop.pl##.doodle
-wykop.pl##section.selected[data-scroll-closest]
-wykop.pl##section.link-block:has-text(/wroc[lł]aw/i)
-wykop.pl##section.item:has-text(/wroc[lł]aw/i)
-wykop.pl##section.item:has-text(/wordziel|🟩|⬜|🟨/i)
-wykop.pl##section.thread[data-level="1"]:has(> section.item:has-text(/wroc[lł]aw/i))
-wykop.pl##section.thread[data-level="1"]:has(> section.item:has-text(/wordziel|🟩|⬜|🟨/i))
-wykop.pl##section.custom-sidebar.tags-sidebar
-wykop.pl##.initiative.pub-slot-wrapper
-wykop.pl##.screening.pub-slot-wrapper
-wykop.pl##.top-screening.pub-slot-wrapper
-wykop.pl##article:has(#switch-newsletter-cta)
-wykop.pl##div.wrapper:has(a[href*="codeaven.com"])
-wykop.pl##div.wrapper:has(a[href*="dhwnh.com"])
-wykop.pl##section.entry:has(> aside.black-content)
-wykop.pl##section.item:has(li.blacklist)
-wykop.pl##section.item:has(section.alert)
-wykop.pl##.toast-container:has(.toast-title:has-text(/limit/i))
