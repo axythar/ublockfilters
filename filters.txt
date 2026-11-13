@@ -1,6 +1,6 @@
 ! Title: Personal uBlock Origin Filters
 ! Description: My personal uBlock Origin filter list
-! Last modified: 27 October 2026
+! Last modified: 13 November 2026
 ! Expires: 1 day
 
 reddit.com##.infobar-toaster-container
@@ -33,3 +33,14 @@ reddit.com###recent-communities-section
 reddit.com##li[id="news-posts"]
 reddit.com##recent-posts
 reddit.com##button#header-action-item-chat-button
+reddit.com##a[href="https://reddit.com/avatar"]
+reddit.com###drafts-list-item
+
+! Mobile menu
+reddit.com##rpl-modal-card ul > faceplate-tracker[noun="edit_avatar"]
+reddit.com##rpl-modal-card ul > faceplate-tracker[source="achievements"]
+reddit.com##rpl-modal-card ul > faceplate-tracker[source="earn"]
+reddit.com##rpl-modal-card ul > faceplate-tracker[noun="premium_menu"]
+reddit.com##rpl-modal-card ul:has( > faceplate-tracker[noun="advertise"])
+reddit.com##rpl-modal-card ul > faceplate-tracker[noun="try_reddit_pro"]
+reddit.com##rpl-modal-card ul:has(> faceplate-tracker[noun="advertise"]) + hr
